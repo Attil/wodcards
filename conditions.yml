@@ -1,0 +1,70 @@
+- name: Inspired
+  flavor: Your character is feeling deeply inspired to excel in field of _.
+  effect: When performing an action related to the source of inspiration, take an exception success at 3 successes instead of 5 and regain a dot of Willpower
+  resolution: Perform an action related to this inspiration
+  num: 2
+- name: Steadfast
+  flavor: Your character is determined
+  effect: Use this condition to grant a single success in a failing roll or replace a chance dice with a regular one.
+  resolution: Use the condition in above manner.
+- name: Mesmerized
+  flavor: Your character is mesmerized by _.
+  effect: You cannot resist commands of the one who bestowed this condition. If the command is not something you'd normally do, the effect is noticeable. If you resolve this condition, gain +3 to resist Mesmerized until end of scene. This condition naturally fades after a scene.
+  resolution: Take any damage OR experiecne a breaking point because of a command
+  num: 2
+- name: Dominated
+  flavor: Your character is dominated by _.
+  effect: You cannot resist commands of the one who bestowed this condition. If the command is not something you'd normally do. Do not apply Resolve to attempts to Command or Possess you. Counts as Mesmerized. This condition naturally fades after executing the command.
+  beat: Do something you wouldn't do because of the command.
+  resolution: Kill the vampire who controls you. Undo the control by supernatural means.
+  num: 2
+- name: Bestial
+  flavor: Your character is acting on primal, physical and violent impulses.
+  effect: -2 to resist frenzy and physical impulses. -2 to Defense. Compeling your character to act on aggressive, violent impulses require 3 successes for exceptional success. This condition naturally fades after a number of nights equal to causing vampire's Blood Potency.
+  resolution: Cause damage in someone's last 3 health boxes.
+- name: Wanton
+  flavor: Your character is distracted by temptation and wants.
+  effect: Any Composure and Resolve rolls to resist temptation suffer a -2 penalty. Tempting this character require only 3 successes for exceptional success. This condition naturally fades after a number of nights equal to causing vampire's Blood Potency.
+  resolution: Indulge in something that is a breaking point.
+- name: Competitve
+  flavor: Your character must assert dominance.
+  effect: Any time this character is competing, he/she suffers -2 rolls for all rolls where Willpower was not spent. Tempting and coercing this character require only three successful rolls for exceptional success. This condition naturally fades after a number of nights equal to causing vampire's Blood Potency.
+  resolution: Win or lose competition. Someone must reach a breaking point.
+- name: Tainted
+  flavor: Your character has commited Amaranth on _. The devoured soul may yet return to haunt you.
+  effect: Once per session, the victim may add Blood Potency (_) dices to your opponent's roll or substract this number from your.
+  resolution: Victim's Blood Potency months have passed. Each point of Aggravated damage reduces this number by one.
+- name: Charmed
+  flavor: You were charmed by _. Making him/her happy is your priority.
+  effect: Caster adds their Awe successes to Manipulation rolls. You add their Awe successes as penalties to any rolls while trying to detect their motive.
+  beat: You make a sacrifice or favor to the caster.
+  resolution: Vampire harms you or someone close to you or you make a very significant sacrifice for him/her.
+- name: Dependent
+  flavor: You are addicted to a mortal, _. You are obsessed with gaining both blood and attention from your victim.
+  effect: Same as second-stage blood bond
+  beat: You suffer loss because you avoided responsibility for your obsession.
+  resolution: Target dies
+- name: Soul loss
+  flavor: You are starting to feel the consequences of losing your soul.
+  effect: You are easily taken over, -2 to resist possession. You do not gain Willpower for resting or surrendering. Regaining all Willpower is a detachment roll, unless you have 1 Humanity
+  beat: You lose Humanity
+  resolution: Recover your soul
+- name: Addicted
+  flavor: You are addicted to _. Being unable to feed your addiction can lead to negative consequences.
+  effect: Gain Deprived condition if unable to get the fix
+  beat: Get a fix instead of fulfilling an obligation
+  resolution: Gain Humanity, lose another dot of Humanity or have an exceptional success on breaking point
+- name: Deprived
+  flavor: You are deprived of the source of your addiction
+  effect: Lose 1 dice on rolls dependant on Stamina, Resolve and Composure.
+  resolution: Get the fix
+- name: Tempted
+  flavor: You were close to losing control. This time preventing the Beast from taking control will be harder.
+  effect: Take -1/-2/-3/-4/-5/-6 penalty to resist frenzy. This penalty increases by one every time you resist the Beast.
+  resolution: Kill. Frenzy. Have a meaningful connection with Touchstone.
+  num: 4
+- name: Frightened
+  flavor: You have come close to your phobia.
+  effect: Every turn you must try to escape the source of your fear. Suppressing this effect for a turn costs 1 Willpower
+  resolution: You have escaped.
+  num: 4

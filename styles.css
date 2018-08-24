@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+
+.condition {
+    display: inline-block;
+    width: 7.5cm;
+    border: 1px solid black;
+    padding: 0.3cm;
+    flex-shrink: 1;
+}
+
+.condition > span {
+    display: block;
+    text-align: justify;
+    margin-bottom: 0.4cm;
+}
+
+.empty {
+    display: inline-block;
+    width: 2cm;
+    height: 1em;
+    background-color: lightgray;
+}
+
+.condition > span:nth-of-type(1) {
+}

@@ -1,0 +1,9 @@
+[package]
+name = "conditions"
+version = "0.1.0"
+authors = ["Damian Rakowski <damian.rakowski@codilime.com>"]
+
+[dependencies]
+serde = "*"
+serde_derive = "*"
+serde_yaml = "*"
